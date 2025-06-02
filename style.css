@@ -82,12 +82,23 @@ html {
 .page-footer {
 background: #241a10;
 color: #f4f0eb;
+display: flex;
 }
+
+.page-footer p, address{
+  font-size: 0.8rem;
+  }
 
 .page-footer a {
   color: #f4f0eb;
   font-weight: bold;
   text-decoration: none;
+}
+
+.page-footer a:hover {
+  color: #f4f0eb;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 .page-footer img {
@@ -97,6 +108,10 @@ color: #f4f0eb;
 .page-footer ul {
   list-style-type: none;
   padding: 10px
+}
+
+.footer-box {
+  flex: 1;
 }
 
 .pizzas p {
