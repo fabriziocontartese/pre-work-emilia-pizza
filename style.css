@@ -1,0 +1,189 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@700&display=swap);
+
+
+html {
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+  color: #322414;
+  background: #f4f0eb;
+  scroll-padding-top: 100px;
+  text-align: center;
+}
+
+.top-menu {
+  font-size: 1rem;
+  font-family: 'Playfair Display', serif;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  box-sizing: border-box;
+  background-color: #f4f0eb;
+}
+
+.top-menu a {
+  text-decoration: none;
+  color: #322414;
+}
+
+.top-menu a:hover {
+  text-decoration: underline;
+}
+
+.top-menu a:active {
+  color: #241a10;
+  font-weight: bold;
+}
+
+.top-menu ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.top-menu li {
+  margin: 0;
+  list-style-type: none
+}
+
+.introduction {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.introduction img {
+  width: 50px;
+  height: 50px;
+}
+
+.introduction-box {
+  flex: 1;
+  min-width: 250px;
+  max-width: 100%;
+  background-color: #f4f0eb;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.page-footer {
+background: #241a10;
+color: #f4f0eb;
+}
+
+.page-footer a {
+  color: #f4f0eb;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.page-footer img {
+  border-radius: 50%
+}
+
+.page-footer ul {
+  list-style-type: none;
+  padding: 10px
+}
+
+.pizzas p {
+  text-align: left
+}
+
+.pizzas img {
+  width: 25px;
+  height: 25px;
+}
+
+.spaces article {
+  text-align: left
+}
+
+.form-container {
+  width: 40%;
+  text-align: center;
+  font-size: 1rem;
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 1rem 2rem 2rem 2rem;
+  background-color: #f4f0eb;
+  border: 1px solid #ddd;
+  color: #322414;
+}
+
+.form-container label {
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 0.25rem;
+  font-weight: 600;
+}
+
+.form-container textarea {
+  width: 100%;
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  font-size: 0.8rem;
+  background-color: #fff;
+  box-sizing: border-box;
+  resize: vertical;
+  font-family: inherit;
+}
+
+  .form-container input,
+  .form-container select {
+    width: 100%;
+    padding: 0.6rem;
+    border: 1px solid #ccc;
+    font-size: 0.8rem;
+    background-color: #fff;
+    box-sizing: border-box;
+  }
+
+.form-container input[type="submit"] {
+    margin-top: 1rem;
+    background-color: #322414;
+    color: #f4f0eb;
+}
+
+.form-container input[type="submit"]:hover {
+  background-color: #241a10;
+}
+
+table {
+  font-size: 0.9rem;
+  width: 90%;
+  border-collapse: collapse;
+  vertical-align: middle;
+  table-layout: fixed;
+  margin: 2rem auto;
+}
+  
+th {
+  font-size: 1.1rem;
+  color: #f4f0eb;
+  background: #241a10;
+  padding: 5px
+ }
+
+td {
+  border: none;
+  border-bottom: 1px solid #241a10;
+  padding: 10px
+}
+ 
+h1, h2, h3, h4 {
+  font-family: 'Playfair Display', serif;
+}
